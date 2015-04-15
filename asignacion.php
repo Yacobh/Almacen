@@ -48,7 +48,7 @@ h1 { padding: .2em; margin: 0; }
 </header>
 	<hgroup id="DatoPrimario">
 		<form name="form_reloj">
-		<h3>Codigo correlativo: <?php include 'php/generar.php';?> </h3>
+		<h3>Codigo correlativo: <?php include 'php/correlativo.php';?> </h3>
 		<h3>Estatus de la asignación:  <?php include 'php/estatus.php';?> </h3>
 		<h3>Hora del sistema: <input class="DatoIndependiente" type="text" name="reloj" size="12" onfocus="window.document.form_reloj.reloj.blur()"> </h3>
 		</form>	
