@@ -1,0 +1,54 @@
+body {
+    margin:5 auto;
+    color: #000;
+    font-family: "Whitney SSm A","Whitney SSm B","Lucida Grande","Lucida Sans",Verdana,Helvetica,Arial,sans-serif;
+    border: 0px solid red;
+    
+}
+
+.DatoIndependiente {
+	width:200px;
+	font-size: 1em;
+	color: #FFF;
+	background : #000;
+	text-align: center;
+	float: right;
+	border: 0px solid red;
+	margin-left: 5px;
+
+	}
+
+header
+{
+	position: relative;
+	border: 0px solid red;
+	}
+
+section {
+    padding: 10px;
+	float: left;
+	border: 1px solid grey;
+	
+}
+
+#DatoPrimario {
+	border-radius: 3px 3px 3px 3px;
+-moz-border-radius: 3px 3px 3px 3px;
+-webkit-border-radius: 3px 3px 3px 3px;
+	float: right;
+	border: 0px solid black;
+	margin: 0 auto;
+	display: inline;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    overflow: hidden;
+	border: 0px solid blue;
+	padding-right: 3px;
+	margin-right: 3px;
+}
+
+#titulo {
+	border: 0px solid red;
+}
+
